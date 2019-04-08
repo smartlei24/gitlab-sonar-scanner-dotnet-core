@@ -31,4 +31,4 @@ RUN dotnet help
 
 RUN dotnet tool install --global dotnet-sonarscanner --version 4.3.1
 ENV PATH="$PATH:/root/.dotnet/tools"
-RUN apk add --no-cache --update git openjdk8-jre
+RUN apk add --no-cache --update git openjdk8-jre nss
